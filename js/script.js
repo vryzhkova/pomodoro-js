@@ -1,3 +1,7 @@
-const btnStart = document.querySelector(".control__btn_start");
+import { initControl } from "./control.js";
 
-const initPomodoro = () => {};
+const initPomodoro = () => {
+  initControl();
+};
+
+initPomodoro();
